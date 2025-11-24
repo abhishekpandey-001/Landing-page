@@ -3,8 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className="bg-[lightseagreen] py-5">
-            <footer >
-                <div className="grid grid-cols-5 mx-auto max-w-[60rem] text-white/80">
+                <div className="px-[1rem] grid grid-cols-5 mx-auto max-w-[60rem] text-white/80 max-[770px]:grid-cols-2 max-[400px]:grid-cols-1">
                     <h1 className="text-3xl"><span className="text-[#0E6F6A] font-extrabold">B</span>rand</h1>
                     <div className="flex flex-col gap-1 text-md">
                         <h1 className='font-bold text-[18px]'>Company</h1>
@@ -63,9 +62,7 @@ const Footer = () => {
                         <a href="">Seattle SEO Agency</a>
                     </div>
                 </div>
-                <div class="w-[85rem] mx-auto h-[2px] bg-white mt-8"></div>
-
-            </footer>
+                <div className="max-w-[90%] h-[2px] bg-white mt-8 mx-auto"></div>
         </div>
     )
 }
