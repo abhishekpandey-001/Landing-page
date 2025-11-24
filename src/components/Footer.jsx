@@ -1,4 +1,4 @@
-import React from 'react'
+import { IoLogoInstagram, IoLogoTwitter, IoLogoYoutube, IoLogoFacebook } from "react-icons/io";
 
 const Footer = () => {
     return (
@@ -62,7 +62,20 @@ const Footer = () => {
                         <a href="">Seattle SEO Agency</a>
                     </div>
                 </div>
-                <div className="max-w-[90%] h-[2px] bg-white mt-8 mx-auto"></div>
+                <div className="max-w-[95%] h-[2px] bg-white mt-8 mx-auto"></div>
+
+                {/* Adding social media handles */}
+
+                <div className='w-[60rem] mx-auto pt-3 px-[1rem]'>
+                    <h4>connect with us on our socials</h4>
+                    <div className="flex gap-3 pt-1">
+                        <IoLogoInstagram/>
+                        <IoLogoYoutube/>
+                        <IoLogoTwitter/>
+                        <IoLogoFacebook/>
+                    </div>
+
+                </div>
         </div>
     )
 }
