@@ -66,7 +66,7 @@ const Footer = () => {
 
                 {/* Adding social media handles */}
 
-                <div className='w-[60rem] mx-auto pt-3 px-[1rem]'>
+                <div className='max-w-[60rem] mx-auto pt-3 px-[1rem]'>
                     <h4>connect with us on our socials</h4>
                     <div className="flex gap-3 pt-1">
                         <IoLogoInstagram/>
